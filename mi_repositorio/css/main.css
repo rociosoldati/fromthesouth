@@ -84,7 +84,7 @@
     font-size: 1rem;
     text-align: center;
     padding: 2rem;
-    width: 70rem; }
+    width: 23rem; }
   .box {
     height: 18rem;
     width: 15rem;
@@ -208,6 +208,13 @@
     grid-gap: 3.125rem;
     grid-template-columns: auto;
     margin: 2.5rem; }
+  .div__preguntas {
+    letter-spacing: 0.188rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 3rem;
+    width: 45rem;
+    margin-left: 1rem; }
   .footer {
     font-variant: small-caps;
     padding: 2rem; }
@@ -308,7 +315,14 @@
     display: grid;
     grid-gap: 3.125rem;
     grid-template-columns: auto auto;
-    margin: 2.5rem; }
+    margin: 2.5rem;
+    margin-top: 7rem; }
+  .div__preguntas {
+    letter-spacing: 0.188rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 2rem;
+    width: 70rem; }
   .footer {
     font-variant: small-caps;
     padding: 2rem; }
@@ -388,7 +402,10 @@
     font-variant: small-caps; }
   select {
     font-variant: small-caps;
-    width: 100%; } }
+    width: 100%; }
+  .centrar {
+    display: flex;
+    justify-content: center; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .tamaño {
