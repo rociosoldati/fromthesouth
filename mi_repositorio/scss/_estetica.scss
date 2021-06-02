@@ -1,0 +1,101 @@
+@media only screen and (min-width: 320px) {
+
+    .bordesRedondeados {
+        border-radius: 1.563rem;
+    }
+
+    .foto {
+        padding: 0.625rem;
+        width: 15rem;
+        margin-left: 4rem;
+    }
+
+    .imagen {
+        padding: 1rem;
+        width: 15rem;
+        margin-left: 1rem;
+    }
+    
+    .iconos {
+        width: 1rem;
+    }     
+
+    .foto--segunda {
+        padding: 1rem;
+    }
+
+    .foto--primera {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .imgMediana {
+        width: 37.5rem;
+    }
+
+    .iconos {
+        width: 2rem;
+    }
+   
+    .foto--segunda {
+        width: 20rem;
+    }
+
+    .foto--primera {
+        width: 70%;
+    }
+
+    .foto--tercera {
+        margin-left: 16rem;
+    }
+
+    .imagen {
+        padding: 1rem;
+        width: 20rem;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    img {
+        margin: auto;
+        width: 10rem;
+    }
+
+    .foto {
+        margin-left: 8rem;
+    }
+
+    .foto--primera {
+        padding: 0.625rem;
+        width: 30rem;
+    }
+
+    .iconos {
+        width: 2rem;
+    }    
+
+   .foto--segunda {
+        display: flex; 
+        padding: 2rem;
+        width: 25rem;
+        margin-left: 30rem;
+    }
+
+    .imagen {
+        padding: 1rem;
+        width: 25rem;
+        margin-left: 1rem;
+    }
+
+    .bordesRedondeados {
+        border-radius: 2.5rem;
+    }
+
+    .foto--tercera {
+        margin-left: 40rem;
+    }
+}

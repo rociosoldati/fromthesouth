@@ -1,0 +1,20 @@
+@import "variables";
+
+@media only screen and (min-width: 320px) {
+
+    .fondo {
+        background-color: $celeste-claro;
+    }
+
+    .section__color {
+        background-color: $verde-oscuro;
+    }
+
+    .section__color--claro {
+        background-color: $celeste-claro;
+    }
+
+    .section__color--semiclaro {
+        color: $celeste;
+    }
+}

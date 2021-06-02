@@ -1,0 +1,69 @@
+@media only screen and (min-width: 320px) {
+
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "presentacion presentacion presentacion"
+    "servicios servicios servicios"
+    "informacion informacion informacion"
+    "footer footer footer";
+}
+#grillacontacto {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "formulario formulario formulario"
+    "footer footer footer";
+}
+#grillagaleria {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "seccion seccion seccion"
+    "footer footer footer"; 
+}
+#grillaguias {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "seccion seccion seccion"
+    "footer footer footer";
+}
+#grillaguiasamerica {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "seccion seccion seccion"
+    "footer footer footer";
+}
+#grillaguiasargentina {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "seccion seccion seccion"
+    "footer footer footer";
+}
+#grillaguiaseuropa {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "seccion seccion seccion"
+    "footer footer footer";
+}
+#grillaguiassudamerica {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "seccion seccion seccion"
+    "footer footer footer";
+}
+#grillanosotros {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "seccion seccion seccion"
+    "footer footer footer";
+}
+
+}
