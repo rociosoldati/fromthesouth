@@ -114,6 +114,14 @@
         text-align: center;        
     }
 
+    .div__preguntas {
+        letter-spacing: 0.188rem;
+        font-size: $tamaño;
+        text-align: center;
+        padding: 2rem;
+        width: 70rem;
+    }
+
     .box {
         @include caja (15rem, 18rem, $celeste);
         border: outset 0.188rem #8bc5b7;

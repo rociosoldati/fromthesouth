@@ -79,6 +79,12 @@
     font-weight: 700;
     font-size: 1rem;
     text-align: center; }
+  .div__preguntas {
+    letter-spacing: 0.188rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 2rem;
+    width: 70rem; }
   .box {
     height: 18rem;
     width: 15rem;
@@ -338,7 +344,9 @@
   .section__color--claro {
     background-color: #d9f3f0; }
   .section__color--semiclaro {
-    color: #ccf1ed; } }
+    color: #ccf1ed; }
+  .colorpreguntas {
+    color: #a9ecd6; } }
 
 @media only screen and (min-width: 320px) {
   #grilla {
@@ -372,6 +380,8 @@
 @media only screen and (min-width: 320px) {
   .mayuscula {
     font-variant: small-caps; }
+  .subrayado {
+    text-decoration: underline; }
   label {
     font-variant: small-caps; }
   input {
