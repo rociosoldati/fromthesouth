@@ -8,11 +8,6 @@
   margin: auto;
   margin-bottom: 2rem; }
 
-.gallery-container h1 {
-  text-align: center;
-  margin-top: 70px;
-  font-weight: bold; }
-
 .gallery-container p.page-description {
   text-align: center;
   max-width: 800px;
@@ -35,12 +30,6 @@
 
 .tz-gallery img {
   border-radius: 4px; }
-
-@media (max-width: 768px) {
-  body {
-    padding: 0; }
-  .container.gallery-container {
-    border-radius: 0; } }
 
 @media only screen and (min-width: 320px) {
   body {
@@ -152,7 +141,9 @@
     color: #ccf1ed;
     font-variant: small-caps;
     font-size: 1rem;
-    letter-spacing: 0.188rem; }
+    letter-spacing: 0.188rem;
+    margin: 3.2rem;
+    display: inline-block; }
   #caja1 {
     height: 15rem;
     width: auto;
@@ -209,7 +200,8 @@
     display: flex;
     justify-content: center; }
   .presentacion__subtitulo {
-    font-size: 1.688rem; }
+    font-size: 1.688rem;
+    margin-left: 2rem; }
   .presentacion__h3 {
     font-size: 1.563rem; }
   .section__descripcion {
@@ -351,6 +343,8 @@
     height: 25rem;
     width: 90%;
     color: #ccf1ed; }
+  .encuadre {
+    margin: 3rem; }
   .flex-container {
     display: flex;
     justify-content: center;
@@ -403,11 +397,6 @@
   margin: auto;
   margin-bottom: 2rem; }
 
-.gallery-container h1 {
-  text-align: center;
-  margin-top: 70px;
-  font-weight: bold; }
-
 .gallery-container p.page-description {
   text-align: center;
   max-width: 800px;
@@ -430,12 +419,6 @@
 
 .tz-gallery img {
   border-radius: 4px; }
-
-@media (max-width: 768px) {
-  body {
-    padding: 0; }
-  .container.gallery-container {
-    border-radius: 0; } }
 
 @media only screen and (min-width: 320px) {
   .fondo {
@@ -591,11 +574,6 @@
   margin: auto;
   margin-bottom: 2rem; }
 
-.gallery-container h1 {
-  text-align: center;
-  margin-top: 70px;
-  font-weight: bold; }
-
 .gallery-container p.page-description {
   text-align: center;
   max-width: 800px;
@@ -618,9 +596,3 @@
 
 .tz-gallery img {
   border-radius: 4px; }
-
-@media (max-width: 768px) {
-  body {
-    padding: 0; }
-  .container.gallery-container {
-    border-radius: 0; } }

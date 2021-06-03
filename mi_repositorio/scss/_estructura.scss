@@ -149,6 +149,8 @@
         font-variant: small-caps;
         font-size: $tamaño;
         letter-spacing: 0.188rem;
+        margin: 3.2rem;
+        display: inline-block;
     }
     #caja1 {
         @include caja (auto, 15rem, $celeste);
@@ -228,7 +230,8 @@
     }
 
     .presentacion__subtitulo {
-        font-size: 1.688rem;        
+        font-size: 1.688rem;  
+        margin-left: 2rem;      
     }
 
     .presentacion__h3 {
@@ -423,6 +426,11 @@
     #caja1 {
         @include caja (90%, 25rem, $celeste);
     }
+
+    .encuadre {
+        margin: 3rem;
+    }
+
     .flex-container {
         display: flex;
         justify-content: center;
