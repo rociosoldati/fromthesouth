@@ -62,7 +62,8 @@
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
-    text-align: center; }
+    text-align: center;
+    margin-top: 2rem; }
   .presentacion__subtitulo {
     color: #a9ecd6;
     text-transform: uppercase;
