@@ -313,7 +313,8 @@
   .div__guia {
     display: grid;
     grid-gap: 0.625rem;
-    grid-template-columns: auto auto auto; }
+    grid-template-columns: auto auto auto;
+    margin: 10rem; }
   .div__h5 {
     font-weight: 700; }
   .a {
