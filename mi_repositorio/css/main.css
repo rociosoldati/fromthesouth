@@ -1,36 +1,4 @@
 @charset "UTF-8";
-.container.gallery-container {
-  background-color: #ccf1ed;
-  color: #35373a;
-  min-height: 100vh;
-  border-radius: 20px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
-  margin: auto;
-  margin-bottom: 2rem; }
-
-.gallery-container p.page-description {
-  text-align: center;
-  max-width: 800px;
-  margin: 25px auto;
-  color: #888;
-  font-size: 18px; }
-
-.tz-gallery {
-  padding: 40px; }
-
-.tz-gallery .lightbox img {
-  width: 100%;
-  margin-bottom: 30px;
-  transition: 0.2s ease-in-out;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
-
-.tz-gallery .lightbox img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
-
-.tz-gallery img {
-  border-radius: 4px; }
-
 @media only screen and (min-width: 320px) {
   body {
     font-family: 'Josefin Slab', serif;
@@ -80,6 +48,10 @@
     width: auto; }
   .presentacion__h3--subrayado {
     text-decoration: underline; }
+  .presentacion__h3--blanco {
+    color: white;
+    margin-left: 5rem;
+    margin-right: 5rem; }
   .section__descripcion {
     color: #ccf1ed;
     text-transform: uppercase;
@@ -118,6 +90,22 @@
     text-align: center;
     padding: 2rem;
     width: 23rem; }
+  h4 {
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 8rem;
+    padding: 2rem;
+    padding-bottom: 0;
+    text-transform: uppercase; }
+  p {
+    font-size: 1.5rem;
+    margin: 4rem;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+    color: white;
+    line-height: 2.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem; }
   .box {
     height: 18rem;
     width: 15rem;
@@ -155,6 +143,26 @@
     grid-gap: 3.125rem;
     grid-template-columns: auto;
     margin: 2.5rem; }
+  .gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px; }
+  .tz-gallery {
+    padding: 40px; }
+  .fotoguia {
+    margin-left: 7.3rem; }
+  .tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
+  .tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
+  .tz-gallery img {
+    border-radius: 4px; }
   .footer {
     width: 100%;
     font-variant: small-caps;
@@ -168,7 +176,9 @@
     color: black;
     font-size: 0.9rem;
     letter-spacing: 0.063rem;
-    text-align: center; }
+    text-align: center;
+    padding: 0;
+    margin: 0; }
   .flex-container1 {
     /*entiendo que row viene por default pero igual lo coloco*/
     display: flex;
@@ -286,11 +296,11 @@
     display: flex;
     justify-content: center; }
   .presentacion__subtitulo {
-    font-size: 1.688rem;
+    font-size: 1.700rem;
     display: flex;
     justify-content: center; }
   .presentacion__h3 {
-    font-size: 1.563rem;
+    font-size: 1.100rem;
     display: flex;
     justify-content: center; }
   .section__descripcion {
@@ -388,38 +398,6 @@
     width: 10rem;
     margin-left: 43rem;
     text-align: center; } }
-
-.container.gallery-container {
-  background-color: #ccf1ed;
-  color: #35373a;
-  min-height: 100vh;
-  border-radius: 20px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
-  margin: auto;
-  margin-bottom: 2rem; }
-
-.gallery-container p.page-description {
-  text-align: center;
-  max-width: 800px;
-  margin: 25px auto;
-  color: #888;
-  font-size: 18px; }
-
-.tz-gallery {
-  padding: 40px; }
-
-.tz-gallery .lightbox img {
-  width: 100%;
-  margin-bottom: 30px;
-  transition: 0.2s ease-in-out;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
-
-.tz-gallery .lightbox img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
-
-.tz-gallery img {
-  border-radius: 4px; }
 
 @media only screen and (min-width: 320px) {
   .fondo {
@@ -565,35 +543,3 @@
     border-radius: 2.5rem; }
   .foto--tercera {
     margin-left: 40rem; } }
-
-.container.gallery-container {
-  background-color: #ccf1ed;
-  color: #35373a;
-  min-height: 100vh;
-  border-radius: 20px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
-  margin: auto;
-  margin-bottom: 2rem; }
-
-.gallery-container p.page-description {
-  text-align: center;
-  max-width: 800px;
-  margin: 25px auto;
-  color: #888;
-  font-size: 18px; }
-
-.tz-gallery {
-  padding: 40px; }
-
-.tz-gallery .lightbox img {
-  width: 100%;
-  margin-bottom: 30px;
-  transition: 0.2s ease-in-out;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
-
-.tz-gallery .lightbox img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
-
-.tz-gallery img {
-  border-radius: 4px; }
