@@ -72,8 +72,8 @@
 
     .presentacion__h3--blanco {
         color: white;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .section__descripcion {
@@ -132,21 +132,21 @@
     h4 {
         font-size: 1.3rem;
         color: white;
-        margin-left: 8rem;
+        text-align: center;
         padding: 2rem;
         padding-bottom: 0;
         text-transform: uppercase;
     }
 
     p {
-        font-size: 1.5rem;
-        margin: 4rem;
+        font-size: 1rem;
+        margin: 2rem;
         letter-spacing: 0.05rem;
         text-align: justify;
         color: white;
-        line-height: 2.5rem;
-        margin-left: 10rem;
-        margin-right: 10rem;
+        line-height: 1.3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .box {
@@ -202,10 +202,6 @@
     
     .tz-gallery {
         padding: 40px;
-    }
-    
-    .fotoguia {
-        margin-left: 7.3rem;
     }
     
     .tz-gallery .lightbox img {
@@ -299,6 +295,12 @@
         font-size: 1.563rem;
     }
 
+    .presentacion__h3--blanco {
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
     .section__descripcion {
         color: $celeste;
         text-transform: uppercase;
@@ -357,6 +359,25 @@
         padding: 3rem;
         width: 45rem;
         margin-left: 1rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        color: white;
+        margin: none;
+        text-align: center;
+        padding-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        text-align: justify;
+        color: white;
+        line-height: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .footer {
@@ -419,6 +440,12 @@
         font-size: 1.100rem;
         display: flex;
         justify-content: center;
+    }
+
+    .presentacion__h3--blanco {
+        color: white;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
     .section__descripcion {
@@ -489,9 +516,25 @@
         @include caja (90%, 25rem, $celeste);
     }
 
-    .encuadre {
-        margin: 3rem;
+    h4 {
+        font-size: 1.3rem;
+        color: white;
+        margin-left: 6rem;
+        padding: 2rem;
+        padding-bottom: 0;
+        text-transform: uppercase;
     }
+
+    p {
+        font-size: 1.5rem;
+        margin: 4rem;
+        letter-spacing: 0.05rem;
+        text-align: justify;
+        color: white;
+        line-height: 2.5rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }       
 
     .flex-container {
         display: flex;
