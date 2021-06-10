@@ -58,11 +58,11 @@
       <h1 class="presentacion__titulo">¡Comunicate con nosotros!</h1>
       <div class="flex-container3 section__color--semiclaro">
         <form class="tamaño" action="#" method="POST" enctype="application/x-www-form-urlencoded">
-          <div><label for="Nombre">Nombre</label></div>
+          <div class="separado"><label for="Nombre">Nombre</label></div>
           <input type="text" name="Nombre" id="Nombre"/>
-          <div><label for="Apellido">Apellido</label></div>
+          <div class="separado"><label for="Apellido">Apellido</label></div>
           <input type="text" name="Apellido" id="Apellido">
-          <div><label for="¿Viajás seguido?">¿Viajás seguido?</label></div>
+          <div class="separado"><label for="¿Viajás seguido?">¿Viajás seguido?</label></div>
           <select name="viajasseguido" id="viajasseguido">
             <option value="1">Sí, cada 3 meses</option>
             <option value="2">Sí, cada 6 meses</option>
@@ -70,11 +70,13 @@
             <option value="4">Cada tanto, me gustaría hacerlo más seguido</option>
             <option value="5">No, nunca</option>
           </select><br>
-          <div><label for="Email">Email</label></div>
+          <div class="separado"><label for="Email">Email</label></div>
           <input type="email" name="Email" placeholder="nombre@ejemplo.com" id="Email"/><br>
-          <div><label for="¿Desea recibir el newsletter?">¿Desea recibir el newsletter?</label></div>
-          <input type="checkbox">
-          <div><label for="Dejanos tus comentarios">¡Dejanos tus comentarios!</label></div>
+          <div class="separado">
+            <label for="¿Desea recibir el newsletter?">¿Desea recibir el newsletter?</label>
+            <input type="checkbox">
+          </div>
+          <div class="separado"><label for="Dejanos tus comentarios">¡Dejanos tus comentarios!</label></div>
           <textarea name="Comentarios" cols="30" rows="10"></textarea><br>
           <input type="reset">
           <input type="submit" value="Enviar el formulario">
