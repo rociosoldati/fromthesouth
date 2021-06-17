@@ -80,11 +80,10 @@
     font-size: 1rem;
     text-align: center; }
   .div__preguntas {
-    letter-spacing: 0.188rem;
+    letter-spacing: 0.1rem;
     font-size: 1rem;
-    text-align: center;
-    padding: 2rem;
-    width: 23rem; }
+    margin: 1rem;
+    text-align: center; }
   h4 {
     font-size: 1.3rem;
     color: white;
@@ -192,8 +191,6 @@
 @media only screen and (min-width: 400px) and (max-width: 599px) {
   .box {
     margin-bottom: 1rem; }
-  .div__preguntas {
-    width: 100%; }
   .presentacion__titulo {
     font-size: 1.2rem; }
   .presentacion__subtitulo {
@@ -244,11 +241,6 @@
     width: auto;
     color: #ccf1ed;
     font-size: 1.5rem; }
-  .div__preguntas {
-    padding: 2rem;
-    width: 38rem;
-    margin-left: 0rem;
-    margin: auto; }
   h4 {
     margin: none; }
   p {
@@ -314,11 +306,6 @@
     width: auto;
     color: #ccf1ed;
     font-size: 1.5rem; }
-  .div__preguntas {
-    padding: 2rem;
-    width: 38rem;
-    margin-left: 0rem;
-    margin: auto; }
   h4 {
     margin: none; }
   p {
@@ -405,12 +392,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-  .div__preguntas {
-    letter-spacing: 0.188rem;
-    font-size: 1rem;
-    text-align: center;
-    padding: 2rem;
-    width: 50rem; }
   .footer__parrafo {
     font-size: 1.5rem; }
   .flex-container1 {
@@ -491,10 +472,6 @@
     margin-right: 5rem;
     margin-left: 5rem;
     line-height: 2rem; }
-  .div__preguntas {
-    padding: 2rem;
-    width: 71.5rem;
-    margin-left: 4rem; }
   .letra {
     font-size: 1.5rem; }
   .footer__parrafo {
@@ -577,10 +554,6 @@
     margin-right: 5rem;
     margin-left: 5rem;
     line-height: 2rem; }
-  .div__preguntas {
-    padding: 2rem;
-    width: 90rem;
-    margin-left: 2rem; }
   .letra {
     font-size: 1.5rem; }
   .footer__parrafo {

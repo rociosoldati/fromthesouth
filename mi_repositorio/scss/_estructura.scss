@@ -117,11 +117,10 @@
     }
 
     .div__preguntas {
-        letter-spacing: 0.188rem;
+        letter-spacing: 0.1rem;
         font-size: $tamaño;
+        margin: 1rem;
         text-align: center;
-        padding: 2rem;
-        width: 23rem;
     }
 
     h4 {
@@ -271,10 +270,6 @@
         margin-bottom: 1rem;
     }
 
-    .div__preguntas {
-        width: 100%
-    }
-
     .presentacion__titulo {
         font-size: 1.2rem;
     }
@@ -346,13 +341,6 @@
     #caja {
         @include caja (auto, 10rem, $celeste);
         font-size: 1.5rem;
-    }
-
-    .div__preguntas {
-        padding: 2rem;
-        width: 38rem;
-        margin-left: 0rem;
-        margin: auto;
     }
 
     h4 {
@@ -457,13 +445,6 @@
     #caja {
         @include caja (auto, 10rem, $celeste);
         font-size: 1.5rem;
-    }
-
-    .div__preguntas {
-        padding: 2rem;
-        width: 38rem;
-        margin-left: 0rem;
-        margin: auto;
     }
 
     h4 {
@@ -601,14 +582,6 @@
         flex-wrap: wrap;
     }
 
-    .div__preguntas {
-        letter-spacing: 0.188rem;
-        font-size: $tamaño;
-        text-align: center;
-        padding: 2rem;
-        width: 50rem;
-    }
-
     .footer__parrafo {
         font-size: 1.5rem;
     }
@@ -726,13 +699,7 @@
         margin-right: 5rem;
         margin-left: 5rem;
         line-height: 2rem;
-    }       
-
-    .div__preguntas {
-        padding: 2rem;
-        width: 71.5rem;
-        margin-left: 4rem;
-    }
+    }    
 
     .letra {
         font-size: 1.5rem;
@@ -853,13 +820,7 @@
         margin-right: 5rem;
         margin-left: 5rem;
         line-height: 2rem;
-    }       
-
-    .div__preguntas {
-        padding: 2rem;
-        width: 90rem;
-        margin-left: 2rem;
-    }
+    }  
 
     .letra {
         font-size: 1.5rem;
