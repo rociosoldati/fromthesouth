@@ -12,7 +12,12 @@
     
     .iconos {
         width: 2rem;
-    }    
+    }  
+    
+    .div__foto {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -51,5 +56,9 @@
 
     .bordesRedondeados {
         border-radius: 2.5rem;
+    }
+
+    .foto {
+        width: 300px;
     }
 }
